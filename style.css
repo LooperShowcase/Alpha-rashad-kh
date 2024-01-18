@@ -1,0 +1,33 @@
+body {
+  background-image: url(bg.png);
+  color: aliceblue;
+}
+
+marquee div {
+  display: inline-block;
+  text-align: center;
+}
+
+#navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#my_li {
+  float: left;
+}
+
+#my_li #my_a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#my_li #my_a:hover {
+  background-color: #111;
+}
